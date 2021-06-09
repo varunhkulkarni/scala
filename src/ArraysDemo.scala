@@ -12,9 +12,7 @@ object ArraysDemo extends  App {
   for(i <- arr){
     println(i)
   }
-
   //Mutable Arrays
-
   var words = ArrayBuffer[String]()
   words += "This"
   words += "is New"
@@ -25,9 +23,5 @@ object ArraysDemo extends  App {
   words.remove(3)
   words.foreach(println)
   println(words.toString())
-
-
-
-
 
 }
